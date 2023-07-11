@@ -203,16 +203,59 @@
 }
 
 .social-image-container {
-  display: flex;
-  justify-content: space-between;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 .social-image {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  margin-top: 45px;
 }
 .image-container{
-    padding: 30px 230px 120px 230px;
+  display: flex;
+  gap: 24px;
+  padding: 30px 0;
+  gap: 24px;
+  padding: 30px 0;
 }
-.social-logo{}
+.social-logo{
+  width: 340px;
+  height: auto;
+}
+.payment-container{
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-top: 45px;
+}
+.payment-info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 25px;
+  gap: 20px;
+}
+.pay-pic{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.pay-title{
+  font-size: 30px;
+  font-weight: 800;
+}
+.pay-descrip{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  width: 620px;
+  margin: auto;
+}
+.pay-btn{
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: #81538C ;
+  border: 0px;
+}
