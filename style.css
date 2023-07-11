@@ -209,23 +209,23 @@
 .social-image {
   margin-top: 45px;
 }
-.image-container{
+.image-container {
   display: flex;
   gap: 24px;
   padding: 30px 0;
   gap: 24px;
   padding: 30px 0;
 }
-.social-logo{
+.social-logo {
   width: 340px;
   height: auto;
 }
-.payment-container{
+.payment-container {
   margin-left: 230px;
   margin-right: 230px;
   margin-top: 45px;
 }
-.payment-info{
+.payment-info {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -233,29 +233,86 @@
   padding-bottom: 25px;
   gap: 20px;
 }
-.pay-pic{
-  width:150px;
+.pay-pic {
+  width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 1px solid black;
 }
-.pay-title{
+.pay-title {
   font-size: 30px;
   font-weight: 800;
 }
-.pay-descrip{
-  color: rgba(39, 39, 39, 0.60);
+.pay-descrip {
+  color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 15px;
   font-weight: 400;
   width: 620px;
   margin: auto;
 }
-.pay-btn{
+.pay-btn {
   color: #fff;
   font-size: 15px;
   padding: 15px 30px;
   border-radius: 5px;
-  background: #81538C ;
+  background: #81538c;
   border: 0px;
+}
+.latest-container {
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-top: 100px;
+  background-image: url(../Assignment-01/Assets/images/Rectangle\ 9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 449px;
+}
+.latest-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 120px 300px;
+}
+.latest-headline {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.lastest-depiction {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.latest-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 280px;
+  gap: 20px;
+  margin:45px 280px 50px 280px;
+}
+.latest-overview {
+  width: 300px;
+  height: 30px;
+  border: 0px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px 200px 10px 20px;
+}
+.btn-primary-latest {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 18px 30px;
+  border-radius: 4px;
+  background: #e55473;
+  border: 0px;
+  width: 130px;
+  height: 50px;
 }
